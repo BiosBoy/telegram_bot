@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "types": ["node", "express"]
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "typeRoots": [
+    "./typings.d.ts",
+    "./node_modules/@types"
+  ],
+  "include": [
+    "jest.config.js",
+    "**/*",
+  ],
+  "files": [
+    "./typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "public"
+  ]
+}
